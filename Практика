@@ -1,0 +1,135 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "879d8e3d-7eb1-4e71-b1f4-fac914ee0404",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello, world!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('Hello, world!')\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "3c9f569f-6342-4908-8054-4d3cc5cca401",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 2\n",
+      " 3\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = int(input())\n",
+    "b = int(input())\n",
+    "print(a + b)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "c0ef021b-3e7e-48fd-836f-f71a7edef278",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " Элина\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello Элина\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = input()\n",
+    "print('Hello ' + a)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "b2a3e3aa-d309-4d1b-854f-0eec8b8925fe",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 2\n",
+      " 3\n",
+      "  яблоко\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "6  яблоко\n"
+     ]
+    }
+   ],
+   "source": [
+    "n = int(input())\n",
+    "m = int(input())\n",
+    "word = input()\n",
+    "print(str(n * m) + ' ' + word)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2bc2518a-9289-48b9-b775-f19ac894c9ed",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "anaconda-ai-2025.12-py312",
+   "language": "python",
+   "name": "conda-env-anaconda-ai-2025.12-py312-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
